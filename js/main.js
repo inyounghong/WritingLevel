@@ -178,6 +178,7 @@ function round(val, power) {
     return Math.round(val * Math.pow(10, power)) / Math.pow(10, power);
 }
 
+
 function percentLargeWords() {
     var largeWordCount = 0;
     for (var i = LARGE_WORD_MIN; i < MAX_WORD_LENGTH; i++) {
